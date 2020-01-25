@@ -1,0 +1,71 @@
+﻿Connor Saari 
+3401 Information Exploration
+Due : 1.26
+
+1. Peter Naur is famously quoted as saying data science “deals with the data, while the actual relation 
+   of data to what they represent should occur in other fields.” Why do you think he’d choose to frame data 
+   science this way? What might be problematic in this statement?  
+
+      I believed he framed his understanding of data science this way to simply highlight the fact that data in itself
+      should be its own individual focus and field rather than being only portrayed as statistics or mathematics. I believe
+      he did not fully understand that the field of data science would later grow to encapsulate all sorts of analysis, visualization,
+      and methodology. Only problem with his statement is that by neglecting to take into consideration what your data actually pertains
+      to, you are failing to completely understand your data; therefore failing to see reasonable connections and create functional answers
+      to the problems you are trying to achieve.
+
+
+2. In 2002, data science began to gain momentum as its own dedicated subfield. Compare and contrast the definitions
+    of data science at that time, exemplified by the National Science Foundation, Data Science Journal, and Journal of 
+    Data Science, to those from Tukey & Naur in the 1970s.
+       
+       The definitions offered in 2002, as the field of data science began to emerge, was that of overall incorporation.
+        The newer definitions generally included all aspect of data, as it should. Encapsulating fields of statistics, mathematics,
+        analytics, programmers and any field that had to do with the curration, management, modeling, sorting, and analysis of data.
+        Prior to this, during the 70's, was a very close minded definition of data science. Naur for example exclaimed that data
+        science should only deal with data, while relation of data should occur in other fields. This definition is representative 
+        of people seeing data science as simply dealing with numbers and data, while analysis and other similar methods should be dealt with
+        according to its most relative cooresponding field outside of data science.
+
+
+      
+
+
+3.  Data continues to grow at an exponential rate today. List at least three technological factors that contribute to 
+   this growth. List three major sources of data that contribute to this growth.
+
+        Three major technological factors that contribute to this growth can be technical ubiquity, Moore's Law or technologically 
+         steady advancement, and social exponentiation. Three major sources that can be attributed to growing the amount of readily
+         avaiable data are that of social media sites, cellular phone data from location to pictures or even microphone use, and 
+         popular searching applications such as google, bing, or yahoo aggregating regular internet use. 
+        
+      * User data for business analytics and predictive advertisements
+      * Popularized technology, increased access to the internet or popular tech
+      * Technical ubiquity 
+      * Social media
+      * Moore’s law
+      * Social exponentiation 
+
+
+
+
+Part 2
+*  How would you move into each of the following directories from the shell? Why do you think it is 
+   important to have shortcuts for each of these directories for navigating the file structure?
+   * A. Root
+      * cd /
+   * B. Home
+      * cd ~
+   * C. Parent
+      * cd ..
+* Briefly describe what the following set of commands would achieve. What process would happen and what 
+   would be printed to the command line?
+   * cd ~
+   * mkdir ./problem_set_1
+   * cd ..
+   * Pwd
+      * The process that is happening is that you are making a new directory in your base directory.
+         Cd ~ , will revert you to your home directory usually being user/yourname. You are then making
+         a new, empty directory called problem_set_1 in your home directory. You then go back out to the
+         parent of your current directory, which in this case is your root directory that you can get to 
+         using cd /. You then use pwd to check which directly you are in, in this case the root directory 
+         which it will print. This will print /users, for most terminals.
